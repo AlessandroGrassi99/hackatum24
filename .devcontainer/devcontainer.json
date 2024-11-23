@@ -1,0 +1,8 @@
+{
+    "name": "HackaTUM Dev",
+    "image": "mcr.microsoft.com/vscode/devcontainers/rust:latest",
+    "remoteUser": "vscode",
+    "mounts": [
+        "source=${localWorkspaceFolder},target=/home/vscode/workspace,type=bind,consistency=cached"
+    ]
+}
